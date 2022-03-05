@@ -1,0 +1,51 @@
+.app__laurels-logo {
+    height: 85vh;
+}
+
+.app__laurels-logo img {
+    width: 146px;
+    height: 146px;
+}
+
+.app__laurels-awards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 3rem;
+}
+
+.app__laurels-content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app__laurels-img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 2rem;
+}
+
+.app__laurels-img img {
+    width: 80%;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__laurels-img {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .app__laurels-logo {
+        height: 100%;
+    }
+}
