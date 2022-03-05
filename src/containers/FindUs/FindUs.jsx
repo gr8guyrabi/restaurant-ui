@@ -2,9 +2,7 @@ import React from 'react'
 
 
 import { Subheading } from '../../components'
-import { images, data } from '../../constants'
-
-import './FindUs.css'
+import { images } from '../../constants'
 
 const FindUs = () => {
   return (
